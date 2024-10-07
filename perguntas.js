@@ -5,8 +5,8 @@ CriaCartão(
     
     CriaCartão(
     'Geografia',
-    'Pergunta: Qual é a capital da França? 
-    'Resposta: Paris')
+    'Pergunta: Qual é a capital da França? ',
+    'Resposta: Paris'),
     CriaCartão(
     'Ciência',
     'Pergunta: Qual é a fórmula química da água?',
@@ -48,8 +48,8 @@ CriaCartão(
     'Pergunta: O que é a gravidade?',
     'Resposta: A força que atrai os objetos para o centro da Terra.')
     CriarCartão(
-    ''Filosofia',
-    'Pergunta: Quem é conhecido como o pai da filosofia ocidental?'
+    'Filosofia',
+    'Pergunta: Quem é conhecido como o pai da filosofia ocidental?',
     'Resposta: Sócrates')
     CriarCartão(
     'Mitologia',
