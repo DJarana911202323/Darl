@@ -5,7 +5,7 @@ CriaCartão(
     
     CriaCartão(
     ‘Geografia',
-    ‘Pergunta: Qual é a capital da França?’,
+    ‘Pergunta: Qual é a capital da França?
     ‘Resposta: Paris’).
     CriaCartão(
     ‘Ciência’,
