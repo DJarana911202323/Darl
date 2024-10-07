@@ -25,7 +25,7 @@ CriaCartão(
     'Resposta: A Sociedade do Anel, As Duas Torres, O Retorno do Rei')
     CriaCartão(
     'Música',
-    'Pergunta: Quem é conhecido como o "Rei do Pop'?',
+    'Pergunta: Quem é conhecido como o "Rei do Pop?',
     'Resposta: Michael Jackson')
     CriaCartão(
     'Tecnologia',
@@ -49,7 +49,7 @@ CriaCartão(
     'Resposta: A força que atrai os objetos para o centro da Terra.')
     CriarCartão(
     ''Filosofia',
-    'Pergunta: Quem é conhecido como o pai da filosofia ocidental?',
+    'Pergunta: Quem é conhecido como o pai da filosofia ocidental?'
     'Resposta: Sócrates')
     CriarCartão(
     'Mitologia',
