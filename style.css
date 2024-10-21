@@ -48,3 +48,15 @@ footer{
     font-weight:700;
     color:var(--destaque);
 }
+.cartao{
+    flex-grow:1;
+    flex-basis:calc(33%-6rem);
+    height:20rem;
+    margin: 1rem;
+}
+.conteudo-cartao{
+    background-color: var(--color-frente);
+    height:100%;
+    color:var (--branco);
+    text-align:center;
+}
