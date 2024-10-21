@@ -36,27 +36,4 @@ footer{
     height: 100%;
     text-align: center;
 }
-.conteudo-cartao p{
-    margin-top:5rem;
-    padding: 2rem;
-    font-size:1.4vw;
-}
-.pergunta-cartao{
-    font-weight:500;
-}
-.resposta-cartao{
-    font-weight:700;
-    color:var(--destaque);
-}
-.cartao{
-    flex-grow:1;
-    flex-basis:calc(33%-6rem);
-    height:20rem;
-    margin: 1rem;
-}
-.conteudo-cartao{
-    background-color: var(--color-frente);
-    height:100%;
-    color:var (--branco);
-    text-align:center;
-}
+
