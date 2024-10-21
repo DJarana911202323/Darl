@@ -3,47 +3,47 @@ criarCartão(
     'Pergunta: Quem foi o primeiro presidente dos Estados Unidos?',
     'Resposta: George Washington')
     
-    criaCartão(
+    criarCartão(
     'Geografia',
     'Pergunta: Qual é a capital da França? ',
     'Resposta: Paris'),
-    criaCartão(
+    criarCartão(
     'Ciência',
     'Pergunta: Qual é a fórmula química da água?',
     'Resposta: H2O')
-    criaCartão(
+    criarCartão(
     'Literatura',
     'Pergunta: Quem escreveu "Dom Quixote"?',
     'Resposta: Miguel de Cervantes')
-    criaCartão(
+    criarCartão(
     'Matemática',
     'Pergunta: Qual é o valor de pi aproximadamente?',
     'Resposta: 3,14')
-     criaCartão(
+     criarCartão(
     'Cinema',
     'Pergunta: Quais são os três filmes da trilogia "O Senhor dos Anéis"?',
     'Resposta: A Sociedade do Anel, As Duas Torres, O Retorno do Rei')
-    criaCartão(
+    criarCartão(
     'Música',
     'Pergunta: Quem é conhecido como o "Rei do Pop?',
     'Resposta: Michael Jackson')
-    criaCartão(
+    criarCartão(
     'Tecnologia',
     'Pergunta: O que é um computador?',
     'Resposta: Um dispositivo eletrônico que processa dados.')
-    criaCartão(
+    criarCartão(
     'Esportes',
     'Pergunta: Qual país venceu a Copa do Mundo de 2014?',
     'Resposta: Alemanha')
-    criaCartão(
+    criarCartão(
     'Biologia',
     'Pergunta: Qual é a função dos pulmões?',
     'Resposta: Trocar oxigênio e dióxido de carbono.')
-    criaCartão(
+    criarCartão(
     'Artes',
     'Pergunta: Quem pintou a Mona Lisa?',
     'Resposta: Leonardo da Vinci')
-    criaCartão(
+    criarCartão(
     'Física',
     'Pergunta: O que é a gravidade?',
     'Resposta: A força que atrai os objetos para o centro da Terra.')
