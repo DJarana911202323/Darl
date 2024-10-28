@@ -11,6 +11,6 @@ function criarCartão(categoria, pergunta, resposta){
   <div class="respotas-cartao">
       <p>${resposta}</p>
   </div>
-</div>
-  container.appendChild(cartao)
-}
+</div>  
+  container.appendChild(cartao){
+  }
