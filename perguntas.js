@@ -1,4 +1,4 @@
-criarCartão(
+criarCartao(
     'História',
     'Pergunta: Quem foi o primeiro presidente dos Estados Unidos?',
     'Resposta: George Washington')
