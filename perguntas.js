@@ -11,7 +11,7 @@ criarCartao(
     'Ciência',
     'Pergunta: Qual é a fórmula química da água?',
     'Resposta: H2O')
-    criarCartão(
+    criarCartao(
     'Literatura',
     'Pergunta: Quem escreveu "Dom Quixote"?',
     'Resposta: Miguel de Cervantes')
