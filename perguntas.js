@@ -2,7 +2,6 @@ criarCartao(
     'História',
     'Pergunta: Quem foi o primeiro presidente dos Estados Unidos?',
     'Resposta: George Washington')
-    
     criarCartao(
     'Geografia',
     'Pergunta: Qual é a capital da França? ',
@@ -78,6 +77,6 @@ criarCartao(
     criarCartao(
     'Linguística',
     'Pergunta: O que é um idioma?',
-    'Resposta: Um sistema de comunicação usado por uma comunidade.')
+    'Resposta: Um sistema de comunicação usado por uma comunidade')
     
     
