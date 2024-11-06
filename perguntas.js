@@ -78,5 +78,3 @@ criarCartao(
     'Linguística',
     'Pergunta: O que é um idioma?',
     'Resposta: Um sistema de comunicação usado por uma comunidade')
-    
-    
