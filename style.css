@@ -1,7 +1,7 @@
 /* Resetando margens e paddings */
 * {
-    margin: 1;
-    padding: 1;
+    margin: 50%;
+    padding: 25%;
     box-sizing: border-box;
 }
 
