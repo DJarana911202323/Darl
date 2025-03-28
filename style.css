@@ -1,0 +1,169 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* Cabeçalho fixo */
+header {
+    background: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu superior */
+.top-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-menu ul li {
+    margin: 0 15px;
+}
+
+.top-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.top-menu ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Menu lateral */
+.sidebar {
+    width: 200px;
+    background: #333;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: #007BFF;
+    border-radius: 5px;
+}
+
+/* Conteúdo principal */
+main {
+    margin-left: 220px;
+    padding-top: 80px;
+    width: 100%;
+    padding: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfólio */
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        top: 0;
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 120px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .top-menu.show {
+        display: block;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+:root{
+    color: #F2EFE7;
+    color: #9ACBD0;
+    color: #48A6A7;
+    color: #006A71;
+}
