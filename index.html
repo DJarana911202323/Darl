@@ -1,24 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perguntinhas</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
+    <!-- Menu Superior -->
     <header>
-        <a href="index.html">Pagina 1</a>
-        <a href="pagina2.html">Pagina 2</a>
+        <div class="logo">Meu Portfólio</div>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="top-menu-toggle">&#9776;</div>
     </header>
-    <section id="container">
 
-   </section>
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-    <footer>
-        <p>desenvolvido por Amanda e Micael </p>
-    </footer>
-    <script src="main.js"></script>
-<script src="perguntas.js"></script>
+    <!-- Conteúdo Principal -->
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao Meu Portfólio</h2>
+            <p>Explore meus projetos e conheça mais sobre mim.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor apaixonado por tecnologia e design.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300" alt="Projeto 1">
+                    <p>Projeto 1</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300" alt="Projeto 2">
+                    <p>Projeto 2</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300" alt="Projeto 3">
+                    <p>Projeto 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: contato@meuportfolio.com</p>
+            <p>Telefone: (11) 99999-9999</p>
+        </section>
+    </main>
+
 </body>
 </html>
+🎨 2. Estilo CSS (styles.css)
+Agora, crie um arquivo styles.css e adicione este código:
+
+css
+Copiar
+Editar
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* Cabeçalho fixo */
+header {
+    background: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu superior */
+.top-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-menu ul li {
+    margin: 0 15px;
+}
+
+.top-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.top-menu ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Menu lateral */
+.sidebar {
+    width: 200px;
+    background: #333;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: #007BFF;
+    border-radius: 5px;
+}
+
+/* Conteúdo principal */
+main {
+    margin-left: 220px;
+    padding-top: 80px;
+    width: 100%;
+    padding: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfólio */
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        top: 0;
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 120px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .top-menu.show {
+        display: block;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
