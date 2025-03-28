@@ -36,7 +36,7 @@ header {
 /* Menu superior */
 .top-menu ul {
     list-style: none;
-    display: flex;
+    display: inline-block;
 }
 
 .top-menu ul li {
@@ -57,13 +57,14 @@ header {
 /* Menu lateral */
 .sidebar {
     width: 200px;
-    background: #333;
+    background: #000000;
     color: white;
     position: fixed;
     top: 60px;
     left: 0;
     height: 100%;
-    padding: 20px;
+    padding: 0.75rem 1rem
+    display block ;
 }
 
 .sidebar ul {
