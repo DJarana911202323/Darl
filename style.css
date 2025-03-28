@@ -171,7 +171,7 @@ section {
     --branco:#ffffff;
     }
     body{
-        background-color: var(--fundo);
+        background-color: var(#000000);
         margin: 50%;
     }
     header{
