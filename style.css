@@ -40,7 +40,7 @@ header {
 }
 
 .top-menu ul li {
-    margin: 0 15px;
+    margin: 50 15px;
 }
 
 .top-menu ul li a {
@@ -139,7 +139,7 @@ section {
     }
 
     main {
-        margin-left: 0;
+        margin-left: 25;
         padding-top: 120px;
     }
 
