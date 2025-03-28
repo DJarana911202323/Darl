@@ -172,7 +172,7 @@ section {
     }
     body{
         background-color: var(--fundo);
-        margin: 0;
+        margin: 50%;
     }
     header{
         background-color: var(--cor-frente);
